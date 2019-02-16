@@ -34,13 +34,9 @@
 
 
 
+====================================================
 
-
-> GitHub地址如下所示。
-
-===================================================
-
-![github](./img/github.png)<https://github.com/kikychn/tw-pre-employment-training>
-
-===================================================
+> GitHub地址如下所示：
+>
+> ![github](./img/github.png)<https://github.com/kikychn/tw-pre-employment-training>
 
