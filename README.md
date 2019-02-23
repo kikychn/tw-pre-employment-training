@@ -6,6 +6,8 @@
 
 网址：[思特沃克学习平台](https://school.thoughtworks.cn/) /训练营中心/[热身作业]入职前培训训练营
 
+
+
 ### 第一周
 
 #### Markdown
@@ -51,9 +53,22 @@
 
 - [HTML](./homework/homework2_1.html)
 
-
-
 #### CSS
+
+参考资料：
+
+- 学习CSS布局：<http://learnlayout.com/>
+- CSS基础教程：<http://www.w3school.com.cn/css/index.asp>
+
+工具：
+
+- HTML编辑器：
+
+- CSS在线验证(附其他验证工具)：<https://codebeautify.org/cssvalidate>
+
+知识点：
+
+作业：
 
 #### HTML&CSS[optional]
 
@@ -62,6 +77,10 @@
 ### 第三周
 
 #### TDD-出租车计价
+
+
+
+
 
 ### 第四周
 
