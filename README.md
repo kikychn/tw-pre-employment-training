@@ -57,18 +57,18 @@
 
 参考资料：
 
-- 学习CSS布局：<http://learnlayout.com/>
 - CSS基础教程：<http://www.w3school.com.cn/css/index.asp>
+- CSS布局：<http://learnlayout.com/>
 
 工具：
 
-- HTML编辑器：
+- CSS编辑器：[Notepad](https://notepad-plus-plus.org/)
 
 - CSS在线验证(附其他验证工具)：<https://codebeautify.org/cssvalidate>
 
-知识点：
-
 作业：
+
+- [CSS作业](./homework/homework2_2.html)
 
 #### HTML&CSS[optional]
 
