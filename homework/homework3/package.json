@@ -1,0 +1,27 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "My first JavaScript project: TDD-Taxi Fare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kikychn/tw-pre-employment-training.git"
+  },
+  "author": "kikychn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikychn/tw-pre-employment-training/issues"
+  },
+  "homepage": "https://github.com/kikychn/tw-pre-employment-training#readme",
+  "devDependencies": {
+    "mocha": "6.0.2"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "sinon": "^7.2.4",
+    "sinon-chai": "^3.3.0"
+  }
+}

@@ -1,16 +1,14 @@
-# TW入职前培训
-
-2019年2月开始。
-
-## 【热身作业】入职前培训训练营
+# 【热身作业】入职前培训训练营
 
 网址：[思特沃克学习平台](https://school.thoughtworks.cn/) /训练营中心/[热身作业]入职前培训训练营
 
+时间：2019年1月～2019年2月31号
 
 
-### 第一周
 
-#### Markdown
+## 第一周
+
+### Markdown
 
 参考资料：
 
@@ -28,9 +26,9 @@
 
   
 
-### 第二周
+## 第二周
 
-#### HTML
+### HTML
 
 参考资料：
 
@@ -53,7 +51,7 @@
 
 - [HTML](./homework/homework2_1.html)
 
-#### CSS
+### CSS
 
 参考资料：
 
@@ -70,21 +68,33 @@
 
 - [CSS作业](./homework/homework2_2.html)
 
-#### HTML&CSS[optional]
+### HTML&CSS[optional]
 
 
 
-### 第三周
+## 第三周
 
-#### TDD-出租车计价
+### TDD-出租车计价
+
+参考资料：
+
+- [深度解读 - TDD（测试驱动开发）](https://www.jianshu.com/p/62f16cd4fef3)
+- [TDD开发演示视频](https://www.bilibili.com/video/av9208705/)
+
+工具：
+
+- IDE： [WebStorm](https://www.jetbrains.com/webstorm/)
+- 开发语言：JavaScript
+
+作业：
+
+- [TDD-出租车计价](./homework/homework3) 
 
 
 
+## 第四周
 
-
-### 第四周
-
-#### Tasking-任务分解
+### Tasking-任务分解
 
 
 
