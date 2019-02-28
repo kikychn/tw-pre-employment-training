@@ -96,5 +96,23 @@
 
 ### Tasking-任务分解
 
+参考资料：
 
+- [编程的精进之法](https://www.zybuluo.com/jtong/note/504192)
 
+工具：
+
+- IDE： [WebStorm](https://www.jetbrains.com/webstorm/)
+- 开发语言：JavaScript
+
+作业：
+
+- [黄焖鸡](./homework/homework4_1)
+
+### Pos 机 v1
+
+参考资料：
+
+工具：
+
+作业：
