@@ -105,6 +105,10 @@
 - IDE： [WebStorm](https://www.jetbrains.com/webstorm/)
 - 开发语言：JavaScript
 
+管道图：
+
+- ![管道图](./homework/img/homework4-1_blockdiagram.png)
+
 作业：
 
 - [黄焖鸡](./homework/homework4_1)
