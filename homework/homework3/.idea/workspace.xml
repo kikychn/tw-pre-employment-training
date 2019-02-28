@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475683d6-e182-4abc-a99b-028d670c90ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework4_1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4_1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework4_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework4_1/src/best-charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4_1/src/best-charge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

@@ -1,7 +1,8 @@
 const loadAllItems = require("../src/items.js");
 const loadPromotions = require("../src/promotions.js");
 
-function formatSelectedItemsInfo(selectedItems, allItems) {
+function selectedItemsInfo(selectedItems) {
+  let allItems = loadAllItems();
   let formatItems = [];
   selectedItems.forEach(selectedItem => {
     selectedItem = selectedItem.split(" x ");
@@ -22,7 +23,8 @@ function formatSelectedItemsInfo(selectedItems, allItems) {
   return formatItems;
 }
 
-function calDiscount(formatItems, totalPrice, promotions) {
+function calDiscount(formatItems, totalPrice) {
+  let promotions = loadPromotions();
   let totalPriceWithPromotion1 = totalPrice
   if (totalPrice >= 30) {
     totalPriceWithPromotion1 = totalPrice - 6;
@@ -72,22 +74,16 @@ function printSummary(selectItemList, savingInfo, finalPrice) {
   return summary;
 }
 
-function formatSelectedItemsString(formatItems) {
-  let totalPrice = 0;
-  let selectItemString = "";
+function bestCharge(selectedItems) {
+  var formatItems = selectedItemsInfo(selectedItems);
+  var totalPrice = 0;
+  var selectItemString = "";
   formatItems.forEach(selectItem => {
     totalPrice += selectItem.price;
     selectItemString += selectItem.name + " x " + selectItem.count + " = " + selectItem.price + "元\n";
   });
-  return {totalPrice, selectItemString};
-}
 
-function bestCharge(selectedItems) {
-  var allItems = loadAllItems();
-  var formatItems = formatSelectedItemsInfo(selectedItems, allItems);
-  var {totalPrice, selectItemString} = formatSelectedItemsString(formatItems);
-  var promotions = loadPromotions();
-  var {savingInfo, finalPrice} = calDiscount(formatItems, totalPrice, promotions);
+  var {savingInfo, finalPrice} = calDiscount(formatItems, totalPrice);
   var summary = printSummary(selectItemString, savingInfo, finalPrice);
   return summary;
 }
