@@ -107,7 +107,7 @@
 
 管道图：
 
-![管道图](./homework/img/homework4-1_blockdiagram.png)
+![管道图](homework/img/homework4-1_blockdiagram.png)
 
 作业：
 
