@@ -70,6 +70,8 @@
 
 ### HTML&CSS[optional]
 
+尚未完成
+
 
 
 ## 第三周
@@ -115,8 +117,11 @@
 
 ### Pos 机 v1
 
-参考资料：
-
 工具：
 
+- IDE： [WebStorm](https://www.jetbrains.com/webstorm/)
+- 开发语言：JavaScript
+
 作业：
+
+- [POS Project v1](./homework/homework4_2)
