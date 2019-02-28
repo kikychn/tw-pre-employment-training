@@ -33,8 +33,8 @@ function calDiscount(formatItems, totalPrice) {
   let totalPriceWithPromotion2 = 0
   let discountDish = [];
   formatItems.forEach(selectItem => {
-    promotions[1].items.forEach(discountItem => {
-      if (selectItem.id == discountItem) {
+    promotions[1].items.forEach(discountItemId => {
+      if (selectItem.id == discountItemId) {
         discountDish.push(selectItem.name);
         selectItem.discountRatio = 0.5;
       }
